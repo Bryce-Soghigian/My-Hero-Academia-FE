@@ -4,7 +4,7 @@ import './App.css';
 import WikiHome from './Components/Wiki/WikiHome';
 import Navbar from './Components/Navbar.js/Navbar';
 import ChaptersHome from './Components/Chapters/ChaptersHome';
-import Test from './Components/Videos/Season_1/Test';
+
 import SeasonOneRender from './Components/Videos/Season_1/SeasonOneRender';
 import Video_Home from './Components/Videos/Video_Home';
 
@@ -18,7 +18,7 @@ function App() {
   <Route path="/Season_2"/>
   <Route path= '/Season_3'/>
   <Route path="/Season_4"/>
-  <Route path="/test" component={Test}/>
+  {/* <Route path="/test" component={Test}/> */}
   <Route path="/Chapters" component={ChaptersHome}/>
 
     </div>

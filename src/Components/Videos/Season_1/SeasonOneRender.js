@@ -8,7 +8,6 @@ import './S1.css'
 import Swal from 'sweetalert2'
 import { FaRegPlayCircle ,FaPauseCircle} from "react-icons/fa";
 import { MdFullscreen } from "react-icons/md";
-import AboutSeasonOne from './AboutSeasonOne';
 const SeasonOneContainer = styled.div`
 margin:2.5%;
 display:flex;
@@ -91,7 +90,7 @@ export default class SeasonOneRender extends Component {
         if(this.state.update ===null){
             return (
                 <SeasonOneContainer>
-                    <AboutSeasonOne/>
+                    {/* <AboutSeasonOne/> */}
                 <div>
                     <select id="Season-1" onChange={episodeHandler}>
                         <optgroup label="Season-1">
