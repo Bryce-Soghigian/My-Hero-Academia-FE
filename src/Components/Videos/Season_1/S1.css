@@ -1,0 +1,9 @@
+#episode_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height:50%;
+    margin:5px;
+
+}
